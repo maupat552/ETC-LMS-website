@@ -9,16 +9,15 @@
     left: 0;
     top: 0;
     font-size: 14px;
-    height: 60px;
-    font-weight: 400;
+    font-weight: 700;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8814+0,db4b24+100 */
-    background: #ff8814;
+    background: #f8f8f8;
     /* Old browsers */
-    background: -moz-linear-gradient(left, #ff8814 0%, #db4b24 100%);
+    /* background: -moz-linear-gradient(left, #ff8814 0%, #db4b24 100%); */
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ff8814 0%, #db4b24 100%);
+    /* background: -webkit-linear-gradient(left, #ff8814 0%, #db4b24 100%); */
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ff8814 0%, #db4b24 100%);
+    /* background: linear-gradient(to right, #ff8814 0%, #db4b24 100%); */
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff8814', endColorstr='#db4b24', GradientType=1);
     /* IE6-9 */
@@ -143,8 +142,8 @@ F .ttr-toggle-sidebar i {
     vertical-align: middle;
     height: 60px;
     line-height: normal;
-    color: #FFF;
-    font-weight: 600;
+    color: #000;
+    font-weight: 500;
     padding: 0 15px;
     text-decoration: none;
 }
@@ -459,11 +458,11 @@ F .ttr-toggle-sidebar i {
     top: 0;
     bottom: 0;
     left: 0;
-    background-color: #fafafa;
+    background-color: #eca52c;
     height: 100%;
     z-index: 101;
     left: -310px;
-    color: #ff8814;
+    color: white;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
@@ -587,9 +586,10 @@ F .ttr-toggle-sidebar i {
     text-decoration: none;
     height: 50px;
     padding: 0 20px;
-    color: #333;
+    color: #fff;
     white-space: nowrap;
     display: table;
+    font-weight: 500;
     width: 100%;
 }
 
@@ -661,7 +661,7 @@ F .ttr-toggle-sidebar i {
 }
 
 .ttr-sidebar-navi ul li.show>a {
-    color: var(--primary);
+    color: #000;
 }
 
 .ttr-overlay {
@@ -1005,7 +1005,7 @@ F .ttr-toggle-sidebar i {
 /* Full Calendra */
 
 .fc-toolbar button.fc-state-active {
-    background: var(--primary);
+    background: #eca52c;
     color: #fff;
 }
 
