@@ -1763,7 +1763,7 @@ button.back-to-top {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     position: relative;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
 }
 
 .service-bx [class*="feature-"] {
