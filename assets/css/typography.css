@@ -134,7 +134,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #111111;
+    color: rgb(255, 255, 255);
     font-family: rubik;
     margin-top: 0;
 }

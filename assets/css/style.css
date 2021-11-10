@@ -425,7 +425,7 @@ YYY
 =================================*/
 
 .menu-bar {
-    background: #f8f8f8;
+    background: #f8f6f6;
     width: 100%;
     position: relative;
 }
@@ -494,7 +494,7 @@ YYY
 .menu-links .nav>li.active>a,
 .menu-links .nav>li.current-menu-item>a {
     background-color: transparent;
-    color: #ffff;
+    color: #000;
 }
 
 .menu-links .nav>li:hover>a {
@@ -1094,7 +1094,7 @@ YYY
         display: inline-block;
     }
     .rs-nav .navbar-toggler.open span {
-        background: #fff;
+        background: #000;
     }
 }
 
@@ -1140,7 +1140,7 @@ YYY
 .header-transparent {
     position: absolute;
     width: 100%;
-    background-color: transparent;
+    background-color: white;
     font-family: sans-serif;
     font-weight: 700;
 }
@@ -1151,7 +1151,7 @@ YYY
 }
 
 .header-transparent .menu-links .nav>li>a {
-    color: #000;
+    color: #eca52c;
 }
 
 .header-transparent .menu-links .nav>li>a,
@@ -1161,7 +1161,7 @@ YYY
 }
 
 .header-transparent .secondary-menu .btn-link:hover {
-    color: var(--primary);
+    color: #000;
 }
 
 .header-transparent .navbar-toggler span {
@@ -1176,7 +1176,7 @@ YYY
 }
 
 .header-transparent .top-bar {
-    background-color: white;
+    background-color: #fffdfd;
     border-bottom: 1px solid #fcad04;
     ;
     color: black;
