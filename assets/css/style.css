@@ -425,7 +425,7 @@ YYY
 =================================*/
 
 .menu-bar {
-    background: #f8f6f6;
+    background: #f8f8f6;
     width: 100%;
     position: relative;
 }
@@ -3100,7 +3100,7 @@ button.back-to-top {
     text-align: center;
     align-items: center;
     display: flex;
-    vertical-align: middle;
+    vertical-align: center;
 }
 
 .account-head a {
@@ -3135,9 +3135,10 @@ button.back-to-top {
 }
 
 .account-container {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
-    padding: 30px 0;
+    padding: 40px 0;
+    
 }
 
 .custom-control-label:before {
