@@ -1,0 +1,629 @@
+<<!DOCTYPE html>	<!DOCTYPE html>
+<html lang="en">	<html lang="en">
+<head>	<head>
+    <!-- META ============================================= -->	    <!-- META ============================================= -->
+    <meta charset="utf-8">	    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />	    <meta name="keywords" content="" />
+    <meta name="author" content="" />	    <meta name="author" content="" />
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+@@ -48,6 +48,58 @@
+    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">	    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
+
+
+</head>	</head>
+<style>
+    div.gallery {
+      border: 1px solid rgb(255, 178, 11);
+    }
+
+    div.gallery:hover {
+      border: 1px solid rgb(248, 162, 3);
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      background-color: whitesmoke;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    img {
+           border-radius: 8px;
+        }
+
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+
+
+<body id="bg">	<body id="bg">
+    <div class="page-wraper">	    <div class="page-wraper">
+@@ -164,7 +216,7 @@ <h5 class="menu-adv-title">Our Courses</h5>
+            <div class="page-banner" style="background-color: #eca52c;">	            <div class="page-banner" style="background-color: #eca52c;">
+                <div class="container ">	                <div class="container ">
+                    <div class="page-banner-entry ">	                    <div class="page-banner-entry ">
+                        <p style="color: white; ">Educating The Children is a UK registered charity that focuses on empowering young women through education and training that increases their employability. Last year we launched Code Queen in Kampala which is an all-female bootcamp	                        <p style="color: white; ">Code Queen is a UK registered charity that focuses on empowering young women through education and training that increases their employability. Last year we launched Code Queen in Kampala which is an all-female bootcamp
+                            designed to train young women in coding and soft skills. Code Queen has successfully run 4 cohorts and graduated 83 students since the launch in 2019.	                            designed to train young women in coding and soft skills. Code Queen has successfully run 4 cohorts and graduated 83 students since the launch in 2019.
+                        </p>	                        </p>
+                    </div>	                    </div>
+@@ -179,6 +231,7 @@ <h5 class="menu-adv-title">Our Courses</h5>
+                    </ul>	                    </ul>
+                </div>	                </div>
+            </div>	            </div>
+
+            <br>	            <br>
+            <br>	            <br>
+            <div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">	            <div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
+@@ -278,6 +331,7 @@ <h5 class="ttr-tilte ">Local Commitees</h5>
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-6 m-b30 ">	                            <div class="col-lg-3 col-md-6 col-sm-6 m-b30 ">
+                                <div class="feature-container ">	                                <div class="feature-container ">
+                                    <div class="feature-md text-white m-b20 ">	                                    <div class="feature-md text-white m-b20 ">
+@@ -303,6 +357,105 @@ <h5 class="ttr-tilte ">Our Depth</h5>
+                        </div>	                        </div>
+                    </div>	                    </div>
+                </div>	                </div>
+
+                <div style="background-color: #eca52c;">
+                    <!-- Start of facilitators -->
+                    <div style="margin: 20px; padding: 20px;">
+                        <h2 style="text-align:center;">OUR FACILITATORS</h2>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                            <a target="_blank" href="img_5terre.jpg">
+                                <img src="assets/images/about/pic9.jpg" alt="Armstrong" width="600" height="400">
+                            </a>
+                            <div class="desc">Armstrong</div>
+                            </div>
+                        </div>
+
+
+                        <div class="responsive">
+                            <div class="gallery">
+                            <a target="_blank" href="img_forest.jpg">
+                                <img src="assets/images/about/pic8.jpg" alt="Someone" width="600" height="400">
+                            </a>
+                            <div class="desc">Someone else</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                            <a target="_blank" href="img_lights.jpg">
+                                <img src="assets/images/about/pic7.jpg" alt="Henry" width="600" height="400">
+                            </a>
+                            <div class="desc">Henry Sekandi</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                            <a target="_blank" href="img_mountains.jpg">
+                                <img src="assets/images/about/pic6.jpg" alt="Sandra" width="600" height="400">
+                            </a>
+                            <div class="desc">Sandra Joyce Atim</div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                    </div>
+                    <!-- End of facilitators -->
+
+                    <!-- Start of members -->
+                    <div style="margin: 20px; padding: 20px;">
+                        <h2 style="text-align:center;"> MEET THE DEVELOPMENT TEAM</h2>
+                        <h4 style="text-align:center;">They Have been very supportive through out the whole project</h4>
+
+                        <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="img_5terre.jpg">
+                            <img src="assets/images/about/pic2.jpg" alt="Cinque Terre" width="600" height="400">
+                            </a>
+                            <div class="desc">NINA</div>
+                            <p>Nina is a web developer,the brains behind the backend of our project.She is also good and has the ability to troubleshoot and optimize web pages for security and responsiveness of the web site.<span>
+                              She is hardworking and also always inquisitive of any language she has an encounter with.
+                            </span></p>
+                        </div>
+                        </div>
+
+                        <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="img_forest.jpg">
+                            <img src="assets/images/about/pic3.jpg" alt="Forest" width="600" height="400">
+                            </a>
+                            <div class="desc">LUCY</div>
+                            <p>Lucy is a Data analysit and programmer of our project.She is a solution-oriented person with a high level of programming skills with strong interpersonal skills.<span>
+                                She is sincere,passionate about her work and sees positive in every situation.
+                            </span></p>
+                        </div>
+                        </div>
+
+                        <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="img_lights.jpg">
+                            <img src="hackathon images/Joyce.jpg" alt="Northern Lights" width="600" height="400">
+                            </a>
+                            <div class="desc">JOYCE</div>
+                            <p>Joyce is a web developer,well equiped with knowledge on frontend web programing languages and skills such as JavaScript, Ajax and web animation techniques.<span>
+                                She is very optimistic,doesn't waste time complaining allowing others rally around her optimism.
+                            </span></p>
+                        </div>
+                        </div>
+
+                        <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="img_mountains.jpg">
+                            <img src="assets/images/about/pic3.jpg" alt="Mountains" width="600" height="400">
+                            </a>
+                            <div class="desc">DOROTHY</div>
+                            <p>Dorothy is a Web developer that is equiped with a solid understanding of how web applications work.She is also behind the top-notch programming and indepth knowledge of backend javascript.<span>
+                                She is a team player,hardworking and doesn't entertain excuses.
+                            </span></p>
+                        </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div style="padding:6px;">
+
+                        </div>
+                    </div>
+                    <!-- End of members -->
+                </div>
+
+                <!-- Page Heading Box END ==== -->	                <!-- Page Heading Box END ==== -->
+                <!-- Page Content Box ==== -->	                <!-- Page Content Box ==== -->
+                <div class="content-block ">	                <div class="content-block ">
+  8  contact-1.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  courses-details.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  courses.html 
+@@ -12,11 +12,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -25,7 +25,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  event.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  forget-password.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  6  index.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+  8  login.html 
+@@ -12,11 +12,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -25,7 +25,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  membership.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  portfolio.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  profile.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  8  register.html 
+@@ -11,11 +11,11 @@
+    <meta name="robots" content="" />	    <meta name="robots" content="" />
+
+
+    <!-- DESCRIPTION -->	    <!-- DESCRIPTION -->
+    <meta name="description" content="Educating The Children" />	    <meta name="description" content="Code Queen" />
+
+
+    <!-- OG -->	    <!-- OG -->
+    <meta property="og:title" content="Educating The Children" />	    <meta property="og:title" content="Code Queen" />
+    <meta property="og:description" content="Educating The Children" />	    <meta property="og:description" content="Code Queen" />
+    <meta property="og:image" content="" />	    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">	    <meta name="format-detection" content="telephone=no">
+
+
+@@ -24,7 +24,7 @@
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />	    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+
+    <!-- PAGE TITLE HERE ============================================= -->	    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Educating The Children </title>	    <title>Code Queen </title>
+
+
+    <!-- MOBILE SPECIFIC ============================================= -->	    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>	    <!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.min.js"></script>		<script src="assets/js/html5shiv.min.js"></script>
+	<script src="assets/js/respond.min.js"></script>		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->		<![endif]-->
+    <!-- All PLUGINS CSS ============================================= -->	    <!-- All PLUGINS CSS ============================================= -->
+    <link rel="stylesheet" type="text/css" href="assets/css/assets.css">	    <link rel="stylesheet" type="text/css" href="assets/css/assets.css">
+    <!-- TYPOGRAPHY ============================================= -->	    <!-- TYPOGRAPHY ============================================= -->
+    <link rel="stylesheet" type="text/css" href="assets/css/typography.css">	    <link rel="stylesheet" type="text/css" href="assets/css/typography.css">
+    <!-- SHORTCODES ============================================= -->	    <!-- SHORTCODES ============================================= -->
+    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css">	    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css">
+    <!-- STYLESHEETS ============================================= -->	    <!-- STYLESHEETS ============================================= -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">	    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
+</head>	</head>
+<body id="bg">	<body id="bg">
+    <div class="page-wraper">	    <div class="page-wraper">
+        <div id="loading-icon-bx"></div>	        <div id="loading-icon-bx"></div>
+        <div class="account-form">	        <div class="account-form">
+            <div class="account-head" style="background-image:url(assets/images/background/bg2.jpg);">	            <div class="account-head" style="background-image:url(assets/images/background/bg2.jpg);">
+                <!-- <a href="index.html"><img src="assets/images/logo-white-2.png" alt=""></a> -->	                <!-- <a href="index.html"><img src="assets/images/logo-white-2.png" alt=""></a> -->
+            </div>	            </div>
+            <div class="account-form-inner">	            <div class="account-form-inner">
+                <div class="account-container">	                <div class="account-container">
+                    <div class="heading-bx left">	                    <div class="heading-bx left">
+                        <h2 class="title-head">Sign Up <span>Now</span></h2>	                        <h2 class="title-head">Sign Up <span>Now</span></h2>
+                        <p>Login Your Account <a href="login.html">Click here</a></p>	                        <p>Login Your Account <a href="login.html">Click here</a></p>
+                    </div>	                    </div>
+                    <form class="contact-bx">	                    <form class="contact-bx">
+                        <div class="row placeani">	                        <div class="row placeani">
+                            <div class="col-md-6">	                            <div class="col-md-6">
+                                <div class="form-group">	                                <div class="form-group">
+                                    <div class="input-group">	                                    <div class="input-group">
+                                        <label>First Name</label>	                                        <label>First Name</label>
+                                        <input name="firstname" type="text" required="" class="form-control">	                                        <input name="firstname" type="text" required="" class="form-control">
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+                            <div class="col-md-6">	                            <div class="col-md-6">
+                                <div class="form-group">	                                <div class="form-group">
+                                    <div class="input-group">	                                    <div class="input-group">
+                                        <label>Last Name</label>	                                        <label>Last Name</label>
+                                        <input name="lastname" type="text" required="" class="form-control">	                                        <input name="lastname" type="text" required="" class="form-control">
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+                            <div class="col-md-6">	                            <div class="col-md-6">
+                                <div class="form-group">	                                <div class="form-group">
+                                    <div class="input-group">	                                    <div class="input-group">
+                                        <label>Email Address</label>	                                        <label>Email Address</label>
+                                        <input name="email" type="email" required="" class="form-control">	                                        <input name="email" type="email" required="" class="form-control">
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+                            <div class="col-md-6">	                            <div class="col-md-6">
+                                <div class="form-group">	                                <div class="form-group">
+                                    <div class="input-group">	                                    <div class="input-group">
+                                        <label>Address</label>	                                        <label>Address</label>
+                                        <input name="address" type="address" required="" class="form-control">	                                        <input name="address" type="address" required="" class="form-control">
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+                            <div class="col-md-6">	                            <div class="col-md-6">
+                                <div class="form-group">	                                <div class="form-group">
+                                    <div class="input-group">	                                    <div class="input-group">
+                                        <label>Contact</label>	                                        <label>Contact</label>
+                                        <input name="contact" type="contact" required="" class="form-control">	                                        <input name="contact" type="contact" required="" class="form-control">
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+                            <div class="col-md-6">	                            <div class="col-md-6">
+                                <div class="form-group">	                                <div class="form-group">
+                                    <div class="input-group">	                                    <div class="input-group">
+                                        <label>Password</label>	                                        <label>Password</label>
+                                        <input name="password" type="password" class="form-control" required="">	                                        <input name="password" type="password" class="form-control" required="">
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+                            <div class="col-lg-6">	                            <div class="col-lg-6">
+                                <div class="form-group">	                                <div class="form-group">
+                                    <div class="input-group">	                                    <div class="input-group">
+                                        <label>Confirm Password</label>	                                        <label>Confirm Password</label>
+                                        <input name="confirmpassword" type="confirmpassword" class="form-control" required="">	                                        <input name="confirmpassword" type="confirmpassword" class="form-control" required="">
+                                    </div>	                                    </div>
+                                </div>	                                </div>
+                            </div>	                            </div>
+                            <div class="col-lg-12 m-b30">	                            <div class="col-lg-12 m-b30">
+                                <button name="submit" type="submit" value="Submit" class="btn button-md">Sign Up</button>	                                <button name="submit" type="submit" value="Submit" class="btn button-md">Sign Up</button>
+                            </div>	                            </div>
+                            <!-- <div class="col-lg-12">	                            <!-- <div class="col-lg-12">
+							<h6>Sign Up with Social media</h6>								<h6>Sign Up with Social media</h6>
+							<div class="d-flex">								<div class="d-flex">
+								<a class="btn flex-fill m-r5 facebook" href="#"><i class="fa fa-facebook"></i>Facebook</a>									<a class="btn flex-fill m-r5 facebook" href="#"><i class="fa fa-facebook"></i>Facebook</a>
+								<a class="btn flex-fill m-l5 google-plus" href="#"><i class="fa fa-google-plus"></i>Google Plus</a>									<a class="btn flex-fill m-l5 google-plus" href="#"><i class="fa fa-google-plus"></i>Google Plus</a>
+							</div>								</div>
+						</div> -->							</div> -->
+                        </div>	                        </div>
+                    </form>	                    </form>
+                </div>	                </div>
+            </div>	            </div>
+        </div>	        </div>
+    </div>	    </div>
+    <!-- External JavaScripts -->	    <!-- External JavaScripts -->
+    <script src="assets/js/jquery.min.js"></script>	    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>	    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>	    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>	    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>	    <script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+    <script src="assets/vendors/magnific-popup/magnific-popup.js"></script>	    <script src="assets/vendors/magnific-popup/magnific-popup.js"></script>
+    <script src="assets/vendors/counter/waypoints-min.js"></script>	    <script src="assets/vendors/counter/waypoints-min.js"></script>
+    <script src="assets/vendors/counter/counterup.min.js"></script>	    <script src="assets/vendors/counter/counterup.min.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.js"></script>	    <script src="assets/vendors/imagesloaded/imagesloaded.js"></script>
+    <script src="assets/vendors/masonry/masonry.js"></script>	    <script src="assets/vendors/masonry/masonry.js"></script>
+    <script src="assets/vendors/masonry/filter.js"></script>	    <script src="assets/vendors/masonry/filter.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>	    <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/js/functions.js"></script>	    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/contact.js"></script>	    <script src="assets/js/contact.js"></script>
+    <script src='assets/vendors/switcher/switcher.js'></script>	    <script src='assets/vendors/switcher/switcher.js'></script>
+</body>	</body>
+</html>
