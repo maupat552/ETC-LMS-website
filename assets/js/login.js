@@ -1,4 +1,4 @@
-var baseUrl = 'http://localhost:3000';
+var baseUrl = 'https://codequeen-backend.herokuapp.com';
 document.getElementById('signinButton').addEventListener('click', function(click) {
     login(click);
 });
