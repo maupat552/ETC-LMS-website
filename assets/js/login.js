@@ -27,21 +27,25 @@ async function login(event) {
 
         const data = await response.json()
             // const user = data.message.forEach(element => console.log(element));
-        const user = data.message.email;
+            console.log(data)
+        const user = data.data.role;
 
         console.log(user)
             // return user;
-        if (user == "facilitator") {
-            alert("signed in successfully")
-            window.location = 'facilitator-dashbaord.html'
-        } else if (user == "admin") {
-            // console.log(user)
-            alert("signed in successfully")
+            if(user =="facilitator"){
+              alert("signed in successfully")
+                window.location = 'admin/courses.html'
+              }
+              else if (user =="admin") {
+                // console.log(user)
+                alert("signed in successfully")
 
-            window.location = 'admin.html'
-        } else {
-            window.location = 'admin/index.html'
-        }
+                window.location = 'admin/index.html'
+              }
+              else{
+                alert("signed in successfully")
+                  window.location ='admin/index2.html'
+              }
 
     } catch (errror) {
         console.log('>>>>>>>>>>>', error)
