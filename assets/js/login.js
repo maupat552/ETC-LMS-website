@@ -33,12 +33,12 @@ async function login(event) {
             // return user;
         if (user == "facilitator") {
             alert("signed in successfully")
-            window.location = 'facilitator-dashbaord.html'
+            window.location = 'admin/courses.html'
         } else if (user == "admin") {
             // console.log(user)
             alert("signed in successfully")
 
-            window.location = 'admin.html'
+            window.location = 'admin/index2.html'
         } else {
             window.location = 'admin/index.html'
         }
