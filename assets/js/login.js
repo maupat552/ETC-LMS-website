@@ -1,4 +1,4 @@
-var baseUrl = 'http://localhost:3000';
+var baseUrl = 'https://codequeen-backend.herokuapp.com';
 document.getElementById('signinButton').addEventListener('click', function(click) {
     login(click);
 });
@@ -27,7 +27,8 @@ async function login(event) {
 
         const data = await response.json()
             // const user = data.message.forEach(element => console.log(element));
-        const user = data.message.email;
+        console.log(data)
+        const user = data.data.role;
 
         console.log(user)
             // return user;
@@ -38,9 +39,10 @@ async function login(event) {
             // console.log(user)
             alert("signed in successfully")
 
-            window.location = 'admin/index2.html'
-        } else {
             window.location = 'admin/index.html'
+        } else {
+            alert("signed in successfully")
+            window.location = 'admin/index2.html'
         }
 
     } catch (errror) {
